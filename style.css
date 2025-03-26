@@ -1,10 +1,73 @@
-.horizontal-menu {
-
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background-color: #abddfc;
-	border: 1px solid white;
-	padding: 10px 0;
-	text-align: center;
+/* Import the Adventure Time font */
+@font-face {
+  font-family: 'AdventureTime';
+  src: url('./fonts/AdventureTime.ttf') format('truetype'); /* relative path to the font file */
 }
+
+/* style the menu body */
+.horizontal-menu {
+	position: fixed;
+	background-color: #abddfc; 
+	border: 4px solid #083465;
+	display: inline-block;
+	padding: 15px 30px; /* menu padding*/
+  }
+  
+  /* style of menu items together */
+  .horizontal-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
+  
+  /* style of menu items individually */
+  .horizontal-menu ul li {
+	margin: 0;
+	padding: 10px 20px;
+	border-right: 2px solid #083465;
+	text-align: center;
+  }
+  
+  /* style of menu links*/
+  .horizontal-menu ul li a {
+	font-family: 'AdventureTime', sans-serif;
+	text-decoration: none;
+	color: #333; 
+	font-size: 22px;
+	font-weight: bold;
+	padding: 5px 10px; /* Center text vertically and horizontally */
+	transition: color 0.3s, background-color 0.3s;
+  }
+
+  
+  .horizontal-menu ul li:last-child {
+	border-right: none; /* remove border from the last menu item */
+  }
+  
+  /* change color and background color on hover */
+  .horizontal-menu ul li a:hover {
+	color: #fe0100;
+	background-color: #fdcc00;
+
+	/* Change background color on hover */
+  }
+
+  /* style for subsections */
+.section {
+	font-family: 'AdventureTime', sans-serif; 
+	font-size: 24px; 
+	color: #333; 
+	margin: 20px 0; /* add spacing above and below the subsections */
+  }
+
+  /* style for subsection paragraphs */
+.section p {
+	font-family: Arial, sans-serif; 
+	font-size: 16px; 
+	text-decoration: none;
+	color: #000; 
+	line-height: 1.5; 
+	margin: 10px 0; 
+  }

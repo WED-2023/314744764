@@ -1,1 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/89IMDEJr)
+I chose to make the size about an old character called the Ice King/Simon Petrikov from the show "Adventure Time". 
+I downloaded and used a font fromt the show itself - it's included in the repository files inside the fonts folder.
+The colors in the website are taken from characters from the show - mostly from the Ice King himself.
