@@ -1,7 +1,10 @@
-#menu
-{
+.horizontal-menu {
+
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background-color: #abddfc;
+	border: 1px solid white;
+	padding: 10px 0;
+	text-align: center;
 }
