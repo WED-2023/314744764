@@ -2,6 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v22.0"></script>
 </head>
 <body>
 <div id="menu" class="horizontal-menu">
@@ -11,34 +13,24 @@
   <li><a href="#playlist">My Playlist</a></li>
   <li><a href="#like">Like</a></li>
   <li><a href="#qrcoder">QR code</a></li>
-  <li><a href="#spa">Q&A</a></li>
+  <li><a href="#qa">Q<span class="ampersand">&</span>A</a></li>
   <li><a href="#contact">Contact Me</a></li>
   </ul>
 
 </div>
 		  
 <section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<img src="images/banner.jpg" alt="Banner Image" class="banner-image" />  
 <br/>
 <br/>
 about me
-<p>Hello! My name is [Your Name], and I am passionate about [your interests]. Welcome to my personal website!</p>
-<p>Here, you'll find more about my hobbies, favorite photos, and much more. Feel free to explore!</p>
 <br/>
 <br/>
+<p>Originally depicted as a two-dimensional, humorously over-the-top villain trying to kidnap Princess Bubblegum and various other princesses on a regular basis,</p>
+<p>the character's personality was subsequently expanded, revealing him to be a kind-hearted but misunderstood old man with completely twisted senses of morality and social behavior,</p>
+<p>suffering from loneliness and memory loss.</p>
+<p>Later seasons unveil his tragic backstory, revealing he was once a good human named Simon Petrikov who lost his mind,</p> 
+<p>memories and loved ones due to the magic crown giving him his ice powers.</p> 
 <br/>
 </section>
 
@@ -49,19 +41,27 @@ about me
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 my photos
 <br/>
 <br/>
+<div class="photo-gallery">
+  <div class="photo-item">
+    <img src="images/photo1.jpg" alt="Photo 1" />
+    <div class="caption">Simon Petrikov with Betty prior to being cursed</div>
+  </div>
+  <div class="photo-item">
+    <img src="images/photo2.jpg" alt="Photo 2" />
+    <div class="caption">Cursed Simon acompanying Marceline during the apocalypse</div>
+  </div>
+  <div class="photo-item">
+    <img src="images/photo3.jpg" alt="Photo 3" />
+    <div class="caption">Ice King attempting to once again kidnap princess Bubblegum</div>
+  </div>
+  <div class="photo-item">
+    <img src="images/photo4.jpg" alt="Photo 4" />
+    <div class="caption">Ice King bantering with his companion Gunther</div>
+  </div>
+</div>
 <br/>
 </section>
 
@@ -72,19 +72,24 @@ my photos
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 my playlist
 <br/>
+<p class=""playlist-description">
+  This song is one of Ice King's favorites.<br/>
+  He enjoys it subconsiously because it reminds him of his past adventures with marceline, at a time before he lost his mind to the curse of the crown. <br/>
+  He deeply yearns for connection and maintains an odd relationship with merceline based on old sentiments she harbors for him.<br/>
+</p>
 <br/>
+<div class="video-container">
+  <img src="images/video_frame.jpg" alt="video_frame" class="video-frame" />
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/PA2PsADo11E?si=IFpUVlLSm2gSOmIg" 
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+</div>
 <br/>
 </section>
 
@@ -95,19 +100,10 @@ my playlist
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 give me a like
 <br/>
-<br/>
+<div class="fb-like" 
+data-href="https://wed-2023.github.io/314744764/" data-width="50" data-layout="" data-action="" data-size="" data-share="true"></div>
 <br/>
 </section>
 
@@ -118,43 +114,84 @@ give me a like
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 scan my code
-<br/>
-<br/>
+<p>Use the QR code below to visit my website:</p>
+  <div class="qr-code-container">
+    <img src="QR code/code.png" alt="QR Code for my website" class="qr-code" />
+  </div>
 <br/>
 </section>
 
-<section id="spa" class="section">
+<section id="qa" class="section">
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+  <h2 class="qa-title">
+    Q<span class="ampersand">&</span>A: 
+  </h2>
+  <h3>
+  Differences between web 1.0, web 2.0, and web 3.0
+  </h3>
+
+  <!-- Question 1 -->
+  <div class="qa-item">
+    Who generates the content in websites in Web 1.0, Web 2.0, and Web 3.0?
+    <p><strong>Answer:</strong> <br/>Web 1.0 is static and read-only, the content on the website managed by the organization or website owner.
+      <br/>Web 2.0 is dynamic and user-generated, users can edit and share content and there are social platforms 
+      for content sharing and collaboration.
+      <br/>Web 3.0 is decentralized and powered by blockchain technology.
+      <br/>There are many internet connected devices that provide data and there are bots
+      that generate content. 
+      <br/>Many websites are automated and use AI to generate content.<br/>
+      Token incentives encourage users to contribute content</p>
+    <p><strong>Use Case: Creating a website for a family owned business<br/></strong> 
+      Web 1.0: The family owns and maintains by themselves a static website where users can only read information about their store.  
+      <br/>Web 2.0: The family opens a facebook page to advertise their business, where users can comment and share their posts. 
+      <br/>On the page they link to sell their products online through Etsy. 
+      <br/>Web 3.0: The family uses an AI to manage their website and look up the latest trends in their industry
+      to update their website.<br/> They use blockchain to manage their inventory and sales.
+    </p>
+  </div>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+  <!-- Question 2 -->
+  <div class="qa-item">
+    How is user data handled differently in Web 1.0, Web 2.0, and Web 3.0?
+    <p><strong>Answer:<br/></strong> Web 1.0 has no user data interaction.
+      <br/>Web 2.0 centralizes user data in platforms, it is collected and monetized by the platform.
+      <br/>Users have little control over their data and privacy they are subject to the platform's terms and conditions.
+      <br/>Companies can sell user data to third parties, personalize ads and content in ways that may not be transparent to the user.
+      <br/>Web 3.0 gives users control over their data using blockchain.
+      <br/>Users can choose to monetize their data themselves and have more control over their privacy.
+      <br/>They may choose to share their data with companies in exchange for tokens or other incentives.
+      <br/>Otherwise if they choose to keep their data private they can do so using encryption and other privacy tools.
+    </p>
+    <p><strong>Use Case: A company collecting user data to market better for their target audience<br/></strong> 
+      Web 1.0: Employees scour the web to find blogs about their products and manually enter the data into company databases. 
+      <br/>Web 2.0: The company pays social media platforms like instagram, where they can target ads to users based on their interests and demographics.
+      <br/>They also use cookies to track user behavior on their website and personalize the user experience.
+      <br/>Web 3.0: The company offers users tokens in exchange for sharing their data, which is stored on a blockchain.
+      <br/> Users can choose to share their data with the company and receive tokens in return, or keep their data private.
+    </p>
+  </div>
+  <br/>
+  <!-- Question 3 -->
+  <div class="qa-item">
+    How do transactions differ in Web 1.0, Web 2.0, and Web 3.0?<br/>
+    <p><strong>Answer:<br/></strong> 
+      Web 1.0 has no online transactions.
+    <br/>Web 2.0 uses centralized payment systems like credit cards and PayPal.
+    <br/>Many payments previously done in person are now done online.
+    <br/>Web 3.0 uses decentralized cryptocurrencies and smart contracts.</p>
+    <p><strong>Use Case: purchasing a brand new computer<br/></strong> 
+      Web 1.0: Customer browses through e-commerce catalogs to find the computer they want, then calls the store to place an order.  
+      <br/>Web 2.0: Customer browses Amazon, places an online order and the payment is processed through Amazon's payment system.  
+      <br/>Web 3.0: Customer visits a decentralized marketplace where payments are made using cryptocurrencies and governed by smart contracts.
+    </p>
+    </p>
+  </div>
 </section>
 
 <section id="contact" class="section">
@@ -164,23 +201,91 @@ ans
 <br/>
 <br/>
 <br/>
+Contact Me
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <button id="contact-button" class="contact-button">Contact Me</button>
+  <form id="email-form" class="email-form">
+    <label for="sender-email">Your Email:</label>
+    <input type="email" id="sender-email" name="sender-email" placeholder="Enter your email" required />
+
+    <label for="message-body">Message:</label>
+    <textarea id="message-body" name="message-body" placeholder="Write your message here..." rows="5" required></textarea>
+
+    <button type="button" id="emoji-button" class="emoji-button">😊</button>
+    <div id="emoji-menu" class="emoji-menu" style="display: none;">
+      <span class="emoji">😊</span>
+      <span class="emoji">😂</span>
+      <span class="emoji">❤️</span>
+      <span class="emoji">😢</span>
+      <span class="emoji">😡</span>
+      <span class="emoji">👍</span>
+      <span class="emoji">🎉</span>
+    </div>
+    <button type="button" id="send-button">Send</button>
+  </form>
 </section>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const contactButton = document.getElementById('contact-button');
+    const emailForm = document.getElementById('email-form');
+    const sendButton = document.getElementById('send-button');
+    const emojiButton = document.getElementById('emoji-button');
+    const emojiMenu = document.getElementById('emoji-menu');
+    const messageBody = document.getElementById('message-body');
 
+    // hide the email form
+    emailForm.style.display = 'none';
 
+    // show or hide the email form when the "contact Me" button is clicked
+    contactButton.addEventListener('click', function () {
+      if (emailForm.style.display === 'none') {
+        emailForm.style.display = 'block';
+      } else {
+        emailForm.style.display = 'none';
+      }
+    });
+
+    emojiButton.addEventListener('click', function () {
+      if (emojiMenu.style.display === 'none') {
+        emojiMenu.style.display = 'flex';
+      } else {
+        emojiMenu.style.display = 'none';
+      }
+    });
+
+    emojiMenu.addEventListener('click', function (event) {
+      if (event.target.classList.contains('emoji')) {
+        messageBody.value += event.target.textContent;
+        emojiMenu.style.display = 'none'; // hide the menu after selecting an emoji
+      }
+    });
+
+    // add a single event listener for the "send" button
+    sendButton.addEventListener('click', function () {
+      const email = document.getElementById('sender-email').value;
+      const message = document.getElementById('message-body').value;
+
+      if (!email || !message) {
+        alert('Please fill out all fields before sending.');
+        return;
+      }
+
+      alert(`Email sent!\n\nFrom: ${email}\nMessage: ${message}`);
+    });
+
+    // emoji picker
+    const picker = new EmojiButton();
+    picker.on('emoji', emoji => {
+      messageBody.value += emoji; // append the selected emoji to the message
+    });
+
+    //  emoji button is clicked
+    emojiButton.addEventListener('click', () => {
+      picker.togglePicker(emojiButton);
+    });
+  });
+</script>
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
