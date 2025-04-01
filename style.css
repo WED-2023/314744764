@@ -275,8 +275,8 @@
   
   .emoji-button {
 	position: absolute;
-	right: 5px; 
-	top: calc(50% + 50px);]
+	right: 10px; 
+	top: 50%;
 	transform: translateY(-50%); 
 	background: none;
 	border: none;
